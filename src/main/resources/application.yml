@@ -6,31 +6,19 @@ spring:
       server:
         name: mcp-search-gateway
         version: 1.0.0
-#        base-path: /mcp
-      tools:
-        - name: call_google
-          description: Search query using Google
-          type: rest
-          rest:
-            method: GET
-            url: https://www.google.com/search?q={search_query}
-          input-schema:
-            type: object
-            properties:
-              search_query:
-                type: string
-            required:
-              - search_query
-        - name: call_yahoo
-          description: Search query using Yahoo
-          type: rest
-          rest:
-            method: GET
-            url: https://search.yahoo.com/search?p={search_query}
-          input-schema:
-            type: object
-            properties:
-              search_query:
-                type: string
-            required:
-              - search_query
+        annotation-scanner:
+          enabled: false
+search:
+  tools:
+    - name: call_google
+      description: Search using Google
+      method: GET
+      url: https://www.google.com/search?q={search_query}
+
+    - name: call_yahoo
+      description: Search using Yahoo
+      method: GET
+      url: https://search.yahoo.com/search?p={search_query}
+
+
+
