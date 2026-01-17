@@ -2,14 +2,12 @@ package in.sujeeth.search_engine_mcp.config;
 
 import in.sujeeth.search_engine_mcp.adapter.DynamicSearchToolProvider;
 import io.modelcontextprotocol.spec.McpSchema;
-import org.springframework.ai.support.ToolCallbacks;
 import org.springframework.ai.tool.ToolCallback;
 import org.springframework.ai.tool.function.FunctionToolCallback;
 import org.springframework.core.ParameterizedTypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.web.reactive.function.client.WebClient;
 
 import java.util.List;
 import java.util.Map;

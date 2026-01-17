@@ -1,0 +1,88 @@
+2026-01-17T09:48:47.432+05:30  INFO 23739 --- [search_engine_mcp] [main] i.s.s.SearchEngineMcpApplication         : Starting SearchEngineMcpApplication using Java 17.0.16 with PID 23739 (/home/sujeeth/projects/spring-ai-projects/search_engine_mcp/target/classes started by sujeeth in /home/sujeeth/projects/spring-ai-projects/search_engine_mcp)
+2026-01-17T09:48:47.433+05:30  INFO 23739 --- [search_engine_mcp] [main] i.s.s.SearchEngineMcpApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-01-17T09:48:47.899+05:30  INFO 23739 --- [search_engine_mcp] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-01-17T09:48:47.905+05:30  INFO 23739 --- [search_engine_mcp] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-17T09:48:47.905+05:30  INFO 23739 --- [search_engine_mcp] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-01-17T09:48:47.925+05:30  INFO 23739 --- [search_engine_mcp] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-17T09:48:47.926+05:30  INFO 23739 --- [search_engine_mcp] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 470 ms
+2026-01-17T09:48:48.277+05:30  INFO 23739 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable tools capabilities, notification: true
+2026-01-17T09:48:48.277+05:30  INFO 23739 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Registered tools: 2
+2026-01-17T09:48:48.277+05:30  INFO 23739 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable resources capabilities, notification: true
+2026-01-17T09:48:48.278+05:30  INFO 23739 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable resources templates capabilities, notification: true
+2026-01-17T09:48:48.278+05:30  INFO 23739 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable prompts capabilities, notification: true
+2026-01-17T09:48:48.278+05:30  INFO 23739 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable completions capabilities
+2026-01-17T09:48:48.353+05:30  INFO 23739 --- [search_engine_mcp] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-01-17T09:48:48.358+05:30  INFO 23739 --- [search_engine_mcp] [main] i.s.s.SearchEngineMcpApplication         : Started SearchEngineMcpApplication in 1.195 seconds (process running for 1.482)
+2026-01-17T09:50:15.162+05:30  INFO 23989 --- [search_engine_mcp] [main] i.s.s.SearchEngineMcpApplicationTests    : Starting SearchEngineMcpApplicationTests using Java 17.0.16 with PID 23989 (started by sujeeth in /home/sujeeth/projects/spring-ai-projects/search_engine_mcp)
+2026-01-17T09:50:15.164+05:30  INFO 23989 --- [search_engine_mcp] [main] i.s.s.SearchEngineMcpApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2026-01-17T09:50:16.767+05:30  INFO 23989 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable tools capabilities, notification: true
+2026-01-17T09:50:16.769+05:30  INFO 23989 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Registered tools: 2
+2026-01-17T09:50:16.770+05:30  INFO 23989 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable resources capabilities, notification: true
+2026-01-17T09:50:16.771+05:30  INFO 23989 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable resources templates capabilities, notification: true
+2026-01-17T09:50:16.773+05:30  INFO 23989 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable prompts capabilities, notification: true
+2026-01-17T09:50:16.774+05:30  INFO 23989 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable completions capabilities
+2026-01-17T09:50:16.924+05:30  INFO 23989 --- [search_engine_mcp] [main] i.s.s.SearchEngineMcpApplicationTests    : Started SearchEngineMcpApplicationTests in 2.083 seconds (process running for 2.975)
+2026-01-17T09:50:43.036+05:30  INFO 23739 --- [search_engine_mcp] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-17T09:50:43.038+05:30  INFO 23739 --- [search_engine_mcp] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-01-17T09:50:46.828+05:30  INFO 24155 --- [search_engine_mcp] [main] i.s.s.SearchEngineMcpApplicationTests    : Starting SearchEngineMcpApplicationTests using Java 17.0.16 with PID 24155 (started by sujeeth in /home/sujeeth/projects/spring-ai-projects/search_engine_mcp)
+2026-01-17T09:50:46.829+05:30  INFO 24155 --- [search_engine_mcp] [main] i.s.s.SearchEngineMcpApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2026-01-17T09:50:47.930+05:30  INFO 24155 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable tools capabilities, notification: true
+2026-01-17T09:50:47.933+05:30  INFO 24155 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Registered tools: 2
+2026-01-17T09:50:47.933+05:30  INFO 24155 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable resources capabilities, notification: true
+2026-01-17T09:50:47.934+05:30  INFO 24155 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable resources templates capabilities, notification: true
+2026-01-17T09:50:47.935+05:30  INFO 24155 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable prompts capabilities, notification: true
+2026-01-17T09:50:47.936+05:30  INFO 24155 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable completions capabilities
+2026-01-17T09:50:48.095+05:30  INFO 24155 --- [search_engine_mcp] [main] i.s.s.SearchEngineMcpApplicationTests    : Started SearchEngineMcpApplicationTests in 1.513 seconds (process running for 2.414)
+2026-01-17T09:51:04.593+05:30  INFO 24316 --- [search_engine_mcp] [main] i.s.s.SearchEngineMcpApplicationTests    : Starting SearchEngineMcpApplicationTests using Java 17.0.16 with PID 24316 (started by sujeeth in /home/sujeeth/projects/spring-ai-projects/search_engine_mcp)
+2026-01-17T09:51:04.595+05:30  INFO 24316 --- [search_engine_mcp] [main] i.s.s.SearchEngineMcpApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2026-01-17T09:51:05.791+05:30  INFO 24316 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable tools capabilities, notification: true
+2026-01-17T09:51:05.792+05:30  INFO 24316 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Registered tools: 2
+2026-01-17T09:51:05.792+05:30  INFO 24316 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable resources capabilities, notification: true
+2026-01-17T09:51:05.793+05:30  INFO 24316 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable resources templates capabilities, notification: true
+2026-01-17T09:51:05.793+05:30  INFO 24316 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable prompts capabilities, notification: true
+2026-01-17T09:51:05.794+05:30  INFO 24316 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable completions capabilities
+2026-01-17T09:51:05.915+05:30  INFO 24316 --- [search_engine_mcp] [main] i.s.s.SearchEngineMcpApplicationTests    : Started SearchEngineMcpApplicationTests in 1.578 seconds (process running for 2.281)
+2026-01-17T09:51:13.382+05:30  INFO 24461 --- [search_engine_mcp] [main] i.s.s.SearchEngineMcpApplicationTests    : Starting SearchEngineMcpApplicationTests using Java 17.0.16 with PID 24461 (started by sujeeth in /home/sujeeth/projects/spring-ai-projects/search_engine_mcp)
+2026-01-17T09:51:13.384+05:30  INFO 24461 --- [search_engine_mcp] [main] i.s.s.SearchEngineMcpApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2026-01-17T09:51:14.839+05:30  INFO 24461 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable tools capabilities, notification: true
+2026-01-17T09:51:14.841+05:30  INFO 24461 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Registered tools: 2
+2026-01-17T09:51:14.841+05:30  INFO 24461 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable resources capabilities, notification: true
+2026-01-17T09:51:14.842+05:30  INFO 24461 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable resources templates capabilities, notification: true
+2026-01-17T09:51:14.842+05:30  INFO 24461 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable prompts capabilities, notification: true
+2026-01-17T09:51:14.843+05:30  INFO 24461 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable completions capabilities
+2026-01-17T09:51:15.028+05:30  INFO 24461 --- [search_engine_mcp] [main] i.s.s.SearchEngineMcpApplicationTests    : Started SearchEngineMcpApplicationTests in 1.872 seconds (process running for 2.748)
+2026-01-17T09:51:19.855+05:30  INFO 24599 --- [search_engine_mcp] [main] i.s.s.SearchEngineMcpApplication         : Starting SearchEngineMcpApplication using Java 17.0.16 with PID 24599 (/home/sujeeth/projects/spring-ai-projects/search_engine_mcp/target/classes started by sujeeth in /home/sujeeth/projects/spring-ai-projects/search_engine_mcp)
+2026-01-17T09:51:19.856+05:30  INFO 24599 --- [search_engine_mcp] [main] i.s.s.SearchEngineMcpApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-01-17T09:51:20.317+05:30  INFO 24599 --- [search_engine_mcp] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-01-17T09:51:20.323+05:30  INFO 24599 --- [search_engine_mcp] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-17T09:51:20.323+05:30  INFO 24599 --- [search_engine_mcp] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-01-17T09:51:20.347+05:30  INFO 24599 --- [search_engine_mcp] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-17T09:51:20.347+05:30  INFO 24599 --- [search_engine_mcp] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 468 ms
+2026-01-17T09:51:20.703+05:30  INFO 24599 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable tools capabilities, notification: true
+2026-01-17T09:51:20.704+05:30  INFO 24599 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Registered tools: 2
+2026-01-17T09:51:20.704+05:30  INFO 24599 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable resources capabilities, notification: true
+2026-01-17T09:51:20.705+05:30  INFO 24599 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable resources templates capabilities, notification: true
+2026-01-17T09:51:20.705+05:30  INFO 24599 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable prompts capabilities, notification: true
+2026-01-17T09:51:20.705+05:30  INFO 24599 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable completions capabilities
+2026-01-17T09:51:20.778+05:30  INFO 24599 --- [search_engine_mcp] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-01-17T09:51:20.784+05:30  INFO 24599 --- [search_engine_mcp] [main] i.s.s.SearchEngineMcpApplication         : Started SearchEngineMcpApplication in 1.184 seconds (process running for 1.516)
+2026-01-17T09:51:59.931+05:30  INFO 24843 --- [search_engine_mcp] [main] i.s.s.SearchEngineMcpApplicationTests    : Starting SearchEngineMcpApplicationTests using Java 21.0.9 with PID 24843 (started by sujeeth in /home/sujeeth/projects/spring-ai-projects/search_engine_mcp)
+2026-01-17T09:51:59.932+05:30  INFO 24843 --- [search_engine_mcp] [main] i.s.s.SearchEngineMcpApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2026-01-17T09:52:01.041+05:30  INFO 24843 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable tools capabilities, notification: true
+2026-01-17T09:52:01.042+05:30  INFO 24843 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Registered tools: 2
+2026-01-17T09:52:01.043+05:30  INFO 24843 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable resources capabilities, notification: true
+2026-01-17T09:52:01.043+05:30  INFO 24843 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable resources templates capabilities, notification: true
+2026-01-17T09:52:01.044+05:30  INFO 24843 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable prompts capabilities, notification: true
+2026-01-17T09:52:01.044+05:30  INFO 24843 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable completions capabilities
+2026-01-17T09:52:01.151+05:30  INFO 24843 --- [search_engine_mcp] [main] i.s.s.SearchEngineMcpApplicationTests    : Started SearchEngineMcpApplicationTests in 1.485 seconds (process running for 2.093)
+2026-01-17T10:28:48.152+05:30  INFO 24599 --- [search_engine_mcp] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-17T10:28:48.343+05:30  INFO 24599 --- [search_engine_mcp] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-01-17T10:29:05.055+05:30  INFO 30560 --- [search_engine_mcp] [main] i.s.s.SearchEngineMcpApplicationTests    : Starting SearchEngineMcpApplicationTests using Java 21.0.9 with PID 30560 (started by sujeeth in /home/sujeeth/projects/spring-ai-projects/search_engine_mcp)
+2026-01-17T10:29:05.058+05:30  INFO 30560 --- [search_engine_mcp] [main] i.s.s.SearchEngineMcpApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2026-01-17T10:29:07.814+05:30  INFO 30560 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable tools capabilities, notification: true
+2026-01-17T10:29:07.817+05:30  INFO 30560 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Registered tools: 2
+2026-01-17T10:29:07.818+05:30  INFO 30560 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable resources capabilities, notification: true
+2026-01-17T10:29:07.819+05:30  INFO 30560 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable resources templates capabilities, notification: true
+2026-01-17T10:29:07.820+05:30  INFO 30560 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable prompts capabilities, notification: true
+2026-01-17T10:29:07.821+05:30  INFO 30560 --- [search_engine_mcp] [main] o.s.a.m.s.c.a.McpServerAutoConfiguration : Enable completions capabilities
+2026-01-17T10:29:07.984+05:30  INFO 30560 --- [search_engine_mcp] [main] i.s.s.SearchEngineMcpApplicationTests    : Started SearchEngineMcpApplicationTests in 3.425 seconds (process running for 4.307)

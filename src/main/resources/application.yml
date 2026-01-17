@@ -8,17 +8,28 @@ spring:
         version: 1.0.0
         annotation-scanner:
           enabled: false
+  main:
+    banner-mode: off
 search:
   tools:
     - name: call_google
       description: Search using Google
       method: GET
       url: https://www.google.com/search?q={search_query}
+#      url: http://localhost:8080/api/google/search?q=spring-ai
 
     - name: call_yahoo
       description: Search using Yahoo
       method: GET
       url: https://search.yahoo.com/search?p={search_query}
+#      url: http://localhost:8080/api/yahoo/search?q=spring-ai
 
+debug:
+  enabled: true
 
+logging:
+  file:
+    name: src/main/resources/logging.file
+
+#  logging:file.name=s
 
